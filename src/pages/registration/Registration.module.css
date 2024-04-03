@@ -14,7 +14,7 @@
 
 .registrationSection {
   flex: 1;
-  height:100vh;
+  min-height:100vh;
   background-color: rgb(0 0 0 / 1);
   display: grid;
   place-items: center;
@@ -104,6 +104,11 @@ label{
 span{
   color: #72db73;
   cursor:pointer;
+}
+
+
+.error{
+  color:red;
 }
 body {
   background-color: aqua;
