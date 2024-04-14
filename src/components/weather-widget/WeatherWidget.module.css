@@ -1,0 +1,17 @@
+.weatherSection{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.dateWrapper{
+    height:20%;
+    background-color: pink;
+}
+
+.weatherInfo{
+    height:80%;
+    background-color:#101744;
+}
